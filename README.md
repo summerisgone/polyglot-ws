@@ -8,7 +8,7 @@ I just needed handy NER web service.
 ## Setup and run
 
 ```shell
-$ docker run summerisgone/polyglot app.py
+$ docker run -p5000:5000 summerisgone/polyglot
 ```
 
 It will expose Flask application on 80 port.
